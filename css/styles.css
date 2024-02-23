@@ -48,7 +48,7 @@ h2 {
 }
 
 .container {
-  max-width: 1128px;
+  max-width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -63,7 +63,6 @@ h2 {
 .page-header-container {
   display: flex;
   justify-content: space-between;
-  width: 1158px;
 }
 .page-navigation {
   display: flex;
@@ -175,10 +174,20 @@ h2 {
   background-color: #404bbf;
 }
 /* Benefit-section */
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .benefits {
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding: 120px 0;
 }
 
 .benefit-list {
